@@ -1,13 +1,13 @@
 title:              StellaNAC's Blog
-email:              stella622@gmail.com
+email:              "stella622@gmail.com"
 description:        "From Stuck to Hired <br> Just Ask Stella"
 author:             StellaNAC
 baseurl:            ""
 url:                "https://stellanac.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
+twitter_username:   
+github_username:    StellaNAC
 facebook_username:  StartBootstrap
 instagram_username:  
 linkedin_username:
