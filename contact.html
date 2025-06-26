@@ -18,7 +18,15 @@ form: true
     Your message:
     <textarea name="message"></textarea>
   </label>
-
+    
+    <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Name</label>
+          <input type="text" class="form-control" name="name" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+          <p class="help-block text-danger"></p>
+        </div>
+    </div>
+    
   <!-- your other form fields go here
   
   <div class="control-group">
