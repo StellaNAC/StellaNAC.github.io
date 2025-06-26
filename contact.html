@@ -10,6 +10,17 @@ form: true
 
 <!-- oldcode <form name="sentMessage" id="contactForm" novalidate> -->
 <form action="https://formspree.io/f/mqabwzad" method="POST"> 
+    <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here
+  
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Name</label>
@@ -40,7 +51,13 @@ form: true
   </div>
   <br>
   <div id="success"></div>
+  
+   -->
+  <button type="submit">Send</button>
+
+   <!-- old button
   <div class="form-group">
     <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
   </div>
+   -->
 </form>
